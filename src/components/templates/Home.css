@@ -1,0 +1,43 @@
+.home {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f0f0;
+    padding: 20px;
+    border: 1px solid #ccc;
+    
+  }
+  
+  .home__title {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 10px;
+    
+  }
+  
+  .home__todo-list {
+    margin-bottom: 20px;
+  }
+  
+  .home__todo-form {
+  display: flex;
+  flex-direction: column;
+  max-width: 300px;
+  margin-top: 20px;
+}
+
+.home__todo-form input {
+  padding: 8px;
+  margin-bottom: 10px;
+  font-size: 16px;
+  text-align: center;
+}
+
+.home__todo-form button {
+  padding: 10px;
+  background-color: #465246;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  
+}
+  
